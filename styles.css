@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+}
+
+.square {
+    flex: 1;
+    aspect-ratio: 1/1;
+    border: 1px solid gray;
+}
+/*
+.square:hover {
+    background-color: rgb(9, 255, 0);
+}*/
+
+.btn {
+    color:white;
+    background-color: #0a0a23;
+    padding: 6px 12px;
+    display: block;
+    margin: 12px auto;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn:hover {
+    cursor:pointer;
+}
